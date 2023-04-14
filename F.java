@@ -1,7 +1,7 @@
 //
 //Ben Nguyen
 /*Reads specified text file and tokenizes each lexeme and checks to see 
-if it is in HW 4 grammar. It will return false or null if it is not in the grammar
+if it is in Test 2 grammar. It will return false or null if it is not in the grammar
 and True if it is in the grammer.
 This code cannot check lexems for this --> 2x=2
 Code will be able to check lexemes for this tho --> 2 x = 2 (Spaces required between lexemes)*/
