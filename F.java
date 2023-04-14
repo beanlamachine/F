@@ -1,4 +1,3 @@
-//
 //Ben Nguyen
 /*Reads specified text file and tokenizes each lexeme and checks to see 
 if it is in Test 2 grammar. It will return false or null if it is not in the grammar
