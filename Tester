@@ -1,0 +1,7 @@
+if ( X == 2 ) { a = 2 * 2 ; }
+if ( X == 2 ) { a = 2 * 2 ; } else { a = 2 / 2 ; }
+while ( x > 2 ) { a = a + 2 ; }
+{ a = a + 2 ; }
+a = a < 2 ;
+DataType d , d ;
+a = a ; a = a ; a = a + 2 ; a = a / 2 ; a = a % 3 ; a = ( a / 2 ) ;
