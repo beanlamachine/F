@@ -1,3 +1,6 @@
 # PLCExam3
 
-To test code: Download Tester file and edit F.java line 401 to the location of the Tester file on your PC.
+To test code: 
+1. Download Tester file 
+2. Download F.java
+3. Edit F.java line 401 to the location of the Tester file on your PC.
