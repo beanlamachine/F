@@ -33,8 +33,9 @@ Fact -> ID
 Fact -> INT_LIT
 Fact -> FLOAT_LIT
 Fact -> ( Expr )
-Declare -> DataType ID
-Declare -> DataType ID , ID
+Declare -> DataType D
+D -> ID
+Declare -> DataType D , D
 Assign -> ID = Expr
 IfStmt -> if ( BoolExpr ) Block else Block
 IfStmt -> if ( BoolExpr ) Block
