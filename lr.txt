@@ -1,0 +1,42 @@
+S' -> Stmt
+StmtList -> Stmt ;
+StmtList -> Stmt ; StmtList
+Stmt -> ''
+Stmt -> IfStmt
+Stmt -> Block
+Stmt -> Assign
+Stmt -> Declare
+Stmt -> WhileLoop
+WhileLoop -> while ( BoolExpr ) Block
+Block -> { StmtList } 
+Block -> { }
+BoolExpr -> Bterm
+BoolExpr -> Bterm > Bterm
+BoolExpr -> Bterm < Bterm
+BoolExpr -> Bterm >= Bterm
+BoolExpr -> Bterm <= Bterm
+Bterm -> Band
+Bterm -> Band == Bterm
+Bterm -> Band != Bterm
+Band -> Bor
+Band -> Bor && Band
+Bor -> Expr
+Bor -> Expr || Bor
+Expr -> Term
+Expr -> Term + Expr
+Expr -> Term - Expr
+Term -> Fact
+Term -> Fact * Term
+Term -> Fact / Term
+Term -> Fact % Term
+Fact -> ID
+Fact -> INT_LIT
+Fact -> FLOAT_LIT
+Fact -> ( Expr )
+Declare -> DataType ID , D
+D -> ID , D
+D -> ID
+Declare -> DataType ID
+Assign -> ID = Expr
+IfStmt -> if ( BoolExpr ) Block else Block
+IfStmt -> if ( BoolExpr ) Block
