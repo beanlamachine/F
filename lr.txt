@@ -19,9 +19,9 @@ Bterm -> Band
 Bterm -> Band == Band
 Bterm -> Band != Band
 Band -> Bor
-Band -> Bor || Bor
+Band -> Bor && Bor
 Bor -> Expr
-Bor -> Expr && Expr
+Bor -> Expr || Expr
 Expr -> Term
 Expr -> Term + Term
 Expr -> Term - Term
