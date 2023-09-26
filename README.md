@@ -1,6 +1,7 @@
 # Lexical Analyzer
 
 F file is the lexical analyzer
+lr is the grammar of the language
 
 To test code: 
 1. Download Tester file 
