@@ -1,4 +1,6 @@
-# PLCExam3
+# Lexical Analyzer
+
+F file is the lexical analyzer
 
 To test code: 
 1. Download Tester file 
